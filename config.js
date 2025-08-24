@@ -41,11 +41,11 @@ class EnterpriseConfigurationManager {
              * Customize your bot's appearance and basic behavior
              */
             bot: {
-                prefix: EnvironmentVariableProcessor.BOT_PREFIX || "!",  // 👈 prefix (!, ?, etc)
-                ownerIds: ["1004206704994566164"],      // 👈 ADD YOUR DISCORD ID HERE
+                prefix: EnvironmentVariableProcessor.BOT_PREFIX || "?",  // 👈 prefix (!, ?, etc)
+                ownerIds: ["1243895854188859523"],      // 👈 ADD YOUR DISCORD ID HERE
                 embedColor: 0x00AE86,               // 👈 Bot embed color (hex)
-                supportServer: "https://discord.gg/xQF9f9yUEM",    // 👈 Your support server link
-                defaultStatus: "🎵 Ready for music!"         // 👈 Bot status message
+                supportServer: "https://discord.gg/xhgBaRCEnZ",    // 👈 Your support server link
+                defaultStatus: "/lastnight on top"         // 👈 Bot status message
             },
             
             features: this.constructAdvancedFeatureConfiguration()
@@ -95,7 +95,7 @@ module.exports = primaryApplicationConfiguration;
  * Instead of editing this file, you can use .env file:
  * TOKEN=your_bot_token_here
  * MONGODB_URI=your_mongodb_uri_here
- * BOT_PREFIX=!
+ * BOT_PREFIX=?
  * 
  * ⚠️ SECURITY WARNING:
  * Never share your bot token or database URI publicly!
